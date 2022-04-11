@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/react-website-project/' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
             <i className='fab fa-typo3' />
           </Link>
@@ -37,13 +37,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/react-website-project/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/react-website-project/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -52,7 +52,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/react-website-project/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -62,7 +62,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='/react-website-project/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >

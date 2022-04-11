@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/react-website-project/' exact element={<Home />} />
-          <Route path='/react-website-project/services' element={<Services />} />
-          <Route path='/react-website-project/products' element={<Products />} />
-          <Route path='/react-website-project/sign-up' element={<SignUp />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='/sign-up' element={<SignUp />} />
         </Routes>
         <Footer />
       </Router>
